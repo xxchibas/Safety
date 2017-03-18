@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "23324693375",
+    "firebase_url": "https://androidhive-81759.firebaseio.com",
+    "project_id": "androidhive-81759",
+    "storage_bucket": "androidhive-81759.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23324693375:android:43c72a913cb73e3a",
+        "android_client_info": {
+          "package_name": "com.example.tdelacerna.safety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23324693375-iq190cvgthnodnf28q0d2f0cvs3upqsp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ1F5BJZBbKEPKPZJuwypMDqCJK5fpdWg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

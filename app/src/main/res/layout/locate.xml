@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Selected Contacts:  "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_selected_contacts"
+        android:layout_below="@+id/btn_pick_contacts"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:textSize="12sp" />
+
+    <Button
+        android:text="Select Contact(s)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_pick_contacts"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp" />
+    <Button
+        android:text="Out of Gas!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/outofgas"
+        android:layout_marginEnd="43dp"
+        android:layout_alignBaseline="@+id/flatTire"
+        android:layout_alignBottom="@+id/flatTire"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/firealert"
+        android:id="@+id/imageView3"
+        android:layout_above="@+id/caracc"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <Button
+        android:text="Fall!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fall"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignEnd="@+id/firealert" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/fall"
+        android:id="@+id/imageView6"
+        android:layout_below="@+id/caracc"
+        android:layout_alignStart="@+id/fall" />
+
+    <Button
+        android:text="Car Accident"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/caracc"
+        android:textSize="18sp"
+
+        android:layout_above="@+id/imageView5"
+        android:layout_alignStart="@+id/injured" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/car"
+        android:id="@+id/imageView5"
+        android:layout_below="@+id/fall"
+        android:layout_alignEnd="@+id/imageView4"
+        android:layout_marginEnd="12dp" />
+
+    <Button
+        android:text="Injured!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/injured"
+        android:textSize="18sp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignStart="@+id/flatTire"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:text="Fire Alert!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/firealert"
+        android:textSize="18sp"
+        android:layout_above="@+id/imageView3"
+        android:layout_alignStart="@+id/outofgas" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/injured"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/injured"
+        android:layout_alignEnd="@+id/injured" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/outofgas"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/injured"
+        android:layout_alignEnd="@+id/firealert" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/flattire"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/flatTire"
+        android:layout_alignStart="@+id/imageView5" />
+
+    <Button
+        android:text="Flat Tire!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flatTire"
+        android:textSize="18sp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/txt_selected_contacts"
+        android:layout_alignStart="@+id/txt_selected_contacts" />
+</RelativeLayout>
